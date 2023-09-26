@@ -21,10 +21,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: start;
+    color: gray;
 }
 
 .container {
-    /* background-color: blueviolet; */
     height: 100%;
     width: 500px;
     display: flex;
@@ -39,9 +39,7 @@ body {
 }
 
 .inputs-box {
-    /* background-color: rgb(221, 143, 42); */
         width: 100%;
-        /* text-align: center; */
         display: flex;
         justify-content: center;
         border-radius: .3rem;
@@ -56,7 +54,6 @@ form input{
 }
 
  form .text-input {
-    color: rgb(235, 9, 9);
     background-color: rgb(178, 253, 253);
     font-size: 1rem;
 }
@@ -70,7 +67,6 @@ form .add-btn {
 }
 
 .list {
-    /* background-color: darksalmon; */
     width: 100%;
     margin-bottom: 1rem;
     display: flex;
@@ -120,33 +116,10 @@ form .add-btn {
 }
 
 @media (max-width: 505px ) {
-        
-    body {
-        color: gray;
-    }
     
     .container {
-        padding: 2rem;
         height: 100vh;
         width: 100vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .container h1 {
-        margin-bottom: 1rem;
-    }
-
-    .inputs-box {
-        /* background-color: rgb(221, 143, 42); */
-            width: 100%;
-            /* text-align: center; */
-            display: flex;
-            justify-content: center;
-            border-radius: .3rem;
-            overflow: hidden;
-            margin-bottom: 2rem;
     }
 
     form input{
@@ -155,29 +128,9 @@ form .add-btn {
         padding: 1.5rem;
     }
     
-    form .text-input {
-        color: rgb(235, 9, 9);
-        background-color: rgb(178, 253, 253);
-        font-size: 1rem;
-    }
-    
     form .add-btn {
-        background-color: gray;
-        color: aliceblue;
-        width: 20%;
-        font-weight: 700;
         padding: .5rem;
     }
-
-    .list {
-        width: 100%;
-        margin-bottom: 1rem;
-        display: flex;
-        flex-flow: column wrap;
-        gap: .5rem;
-    }
-
-
 
 }
 
