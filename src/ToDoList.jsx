@@ -14,8 +14,8 @@ function ToDoList () {
                     <span>Example of task</span>
                     <a className="delete">Delete</a>
                 </div>
-                <div className="dashed-item">
-                    <span>Example of task</span>
+                <div className="line-through-item">
+                    <span>Example of task done</span>
                     <a className="delete">Delete</a>
                 </div>
             </div>
