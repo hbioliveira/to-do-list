@@ -23,6 +23,7 @@ body {
     justify-content: center;
     align-items: start;
     padding: 2rem;
+    color: gray;
 }
 
 .container {
@@ -57,7 +58,7 @@ form input{
 
  form .text-input {
     color: rgb(235, 9, 9);
-    background-color: aqua;
+    background-color: rgb(178, 253, 253);
 }
 
 form .add-btn {
