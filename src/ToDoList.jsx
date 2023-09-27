@@ -26,7 +26,7 @@ function ToDoList () {
     }
 
     function clicked(index) {
-        const auxList = [...lista];
+        const auxList = [...list];
         auxList[index].isCompleted = !auxList[index].isCompleted;
         setList(auxList);
     }
@@ -72,7 +72,7 @@ function ToDoList () {
                 }
                 {
                     list.length > 0 &&
-                    <button onClick={() => { deletaTudo() }} className="del-btn">Delete All</button>
+                    <button onClick={() => { deleteAll() }} className="del-btn">Delete All</button>
                 }
             </div>
         </div>
